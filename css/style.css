@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+    
+}
+p,h1,h2,h3,h4,h6,i,div,nav,footer,li,a,form, input,button,img{
+    padding: 0;
+}
+body{
+    /* 
+    font-family: "PT Sans", serif;
+    */
+}
+.navbar{
+    background-color: #fcdb00;
+    padding: 45px 0px 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: "PT Sans", serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    padding-right: 75px;
+}
+/* carousel css part start */
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-inner{
+   padding: 100px 0px;
+   background-color: #fcdb00;
+}
+.tap-white{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-balck{
+    width: 320px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item h3{
+    font-family: "PT Sans", serif;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 70px;   
+}
+.carousel-item .c-first{
+    font-family: "PT Sans", serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 10px 0;
+}
+.carousel-item .c-second{
+    font-family: "PT Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(79, 78, 78);
+    line-height: 20px;
+}
+.carousel-item ul{
+    display: flex;
+}
+.carousel-item ul li{
+    padding-right: 40px;
+    font-size: 40px;
+}
+/* carousel css part end */
+
+/* common_head css part start */
+.common_head h1{
+    text-align: center;
+    font-family: "PT Sans", serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+.common_head p{
+    padding: ;
+    text-align: center;
+    font-family: "PT Sans", serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #797c81;
+    line-height: 26px;
+}
+/* common_head css part end */
+
+/* common_head css part start */
+#features{
+    padding: 100px 0px;
+}
+#features .common_head p{
+    padding-bottom: 60px;
+}
+.features-item i{
+    font-size: 40px;
+}
+.features-item h4,
+.features-item p{
+    font-family: "PT Sans", serif;
+    font-weight: 500;
+}
+.features-item p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/* common_head css part end */
+
+/* subcrible css part start */
+#subcrible{
+    background-color: black;
+    padding: 100px 0px;
+}
+#subcrible .common_head h1{
+    color: #fcdb00;
+}
+#subcrible .common_head p{
+    padding-bottom: 40px;
+}
+.subcrible_form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.form-control{
+    width: 400px !important;
+    font-family: "PT Sans", serif;
+    border-radius: 3px;
+}
+.subcrible_form .btn{
+    margin-left: 50px ;
+    background-color: #fcdb00;
+    font-family: "PT Sans", serif;
+    font-weight: 900;
+    border-radius: 3px;
+}
+
+.subcrible_incon ul{
+    display: flex;
+    justify-content: center;
+}
+.subcrible_incon ul li{
+    font-size: 25px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+    background-color: #fcdb00;
+    border-radius:5px;
+}
+/* subcrible css part end */
+
+footer{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.contact-info p ,
+.contact-info a{
+    font-size: 16px;
+    font-family: "PT Sans", serif;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    display: block;
+}
+.footer-menu ul{
+    margin: 0;
+}
+.footer-menu ul li a{
+    font-size: 16px;
+    font-family: "PT Sans", serif;
+    font-weight: 500;
+    color: white;  
+}
